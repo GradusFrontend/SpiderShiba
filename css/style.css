@@ -1,0 +1,358 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrap {
+  width: 1200px;
+  margin: 0 auto;
+  padding-inline: 15px;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  background: #101932;
+}
+
+.promo {
+  background: url(../img/promo-shiba-bg.jpg) no-repeat center/cover;
+}
+.promo header {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.promo header .logo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.promo header .logo h3 {
+  color: #FFF;
+  font-family: SF Pro Display;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.promo header .logo h3 span {
+  color: #E11D2E;
+  font-family: SF Pro Display;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.promo header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.promo header nav a {
+  color: #FFF;
+  font-family: SF Pro Display;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+  -webkit-text-decoration: 0;
+          text-decoration: 0;
+}
+.promo header nav button {
+  cursor: pointer;
+  margin-left: 50px;
+  padding: 11px 30px 11px 30px;
+  border-radius: 10px;
+  background: #AC1216;
+  border: 0;
+  color: #FFF;
+  text-align: center;
+  font-family: SF Pro Display;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.promo .promo-box {
+  display: flex;
+  justify-content: space-between;
+}
+.promo .promo-box h1 {
+  padding-top: 70px;
+  color: #ffffff;
+  font-family: SF Pro Display;
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 800;
+  /* 112.5% */
+}
+.promo .promo-box h1 span {
+  color: #E11D2E;
+}
+.promo .promo-box h5 {
+  color: #71768E;
+  font-family: SF Pro Display;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 200;
+}
+.promo .promo-box p {
+  padding-top: 30px;
+  color: #A0A3B5;
+  font-family: SF Pro Display;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 100;
+}
+.promo .promo-box .promo-btns {
+  padding-top: 35px;
+  display: flex;
+  gap: 20px;
+}
+.promo .promo-box .promo-btns .join-comm {
+  cursor: pointer;
+  padding: 20px 55px;
+  border: 0;
+  border-radius: 10px;
+  background: #E11D2E;
+  color: #FFF;
+  text-align: center;
+  font-family: SF Pro Display;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+}
+.promo .promo-box .promo-btns .more-about {
+  cursor: pointer;
+  padding: 20px 55px;
+  border: 0;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.05);
+  color: white;
+  font-family: SF Pro Display;
+  font-weight: 400;
+}
+.promo .promo-box .contract {
+  margin-top: 20px;
+  margin-bottom: 115px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.09);
+}
+.promo .promo-box .contract h6 {
+  padding: 10px 0 0 20px;
+  color: rgba(255, 255, 255, 0.2);
+  font-family: SF Pro Display;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 500;
+}
+.promo .promo-box .contract h4 {
+  padding: 0 25px 10px 20px;
+  color: rgba(255, 255, 255, 0.4);
+  font-family: SF Pro Display;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+.promo .promo-box .promo-img img {
+  padding-top: 80px;
+  transform: scale(0.8);
+}
+
+.earth .content-wrap {
+  position: relative;
+}
+.earth .content-wrap .investors {
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  opacity: 0.05;
+}
+.earth .content-wrap .content {
+  position: relative;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+.earth .content-wrap .content .circle1 {
+  margin: 0 auto;
+  width: 900px;
+  height: 900px;
+  border-radius: 50%;
+  opacity: 0.05;
+  background: #143D85;
+}
+.earth .content-wrap .content .circle2 {
+  margin: 0 auto;
+  width: 730px;
+  height: 730px;
+  border-radius: 50%;
+  opacity: 0.07;
+  background: #143D85;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 10%;
+  bottom: 0;
+}
+.earth .content-wrap .content .circle3 {
+  margin: 0 auto;
+  width: 550px;
+  height: 550px;
+  border-radius: 50%;
+  opacity: 0.1;
+  background: #143D85;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 20%;
+  bottom: 0;
+}
+.earth .content-wrap .content .net1 {
+  margin: 0 auto;
+  margin-top: -70px;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+.earth .content-wrap .content .earth-img {
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 20%;
+  bottom: 0;
+}
+.earth .content-wrap .content .earth-shiba {
+  transform: scale(0.35);
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 10%;
+  bottom: 0;
+}
+.earth .content-wrap .content .blue-dot {
+  position: absolute;
+  right: 13%;
+  top: 10%;
+  bottom: 0;
+}
+.earth .content-wrap .content .red-dot {
+  position: absolute;
+  left: 16%;
+  top: 40%;
+  bottom: 0;
+}
+.earth .content-wrap .content .orange-dot {
+  position: absolute;
+  right: 29%;
+  top: 65%;
+  bottom: 0;
+}
+.earth .content-wrap .content .earth-btn {
+  padding: 10px 45px 15px 45px;
+  border: 0;
+  border-radius: 10px;
+  background: #E11D2E;
+  position: absolute;
+  top: 61.5%;
+  left: 42.5%;
+  cursor: pointer;
+  color: #FFF;
+  text-align: center;
+  font-family: SF Pro Display;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.earth .content-wrap .content p {
+  color: #FFF;
+  text-align: center;
+  font-family: SF Pro Display;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 71%;
+  bottom: 0;
+}
+
+.how-it-work h1 {
+  text-align: center;
+  color: #FFF;
+  text-align: center;
+  font-family: SF Pro Display;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-bottom: 50px;
+}
+.how-it-work .hiw-item:nth-child(1) {
+  height: 400px;
+}
+.how-it-work .hiw-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+}
+.how-it-work .hiw-grid .hiw-item {
+  padding: 30px 30px 35px 30px;
+  border-radius: 20px;
+  background: #384D70;
+}
+.how-it-work .hiw-grid .hiw-item h3 {
+  color: #FFF;
+  font-family: SF Pro Display;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-block: 20px 8px;
+}
+.how-it-work .hiw-grid .hiw-item h5 {
+  color: #FFF;
+  font-family: SF Pro Display;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+  opacity: 0.3;
+  padding-bottom: 20px;
+}
+.how-it-work .hiw-grid .hiw-item p {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: SF Pro Display;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.play-to-earn {
+  padding-top: 200px;
+}
+.play-to-earn .pte-h1 {
+  color: #FFF;
+  text-align: center;
+  font-family: SF Pro Display;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
